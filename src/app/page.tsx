@@ -1,5 +1,12 @@
-import Image from "next/image";
+import React from "react";
+import { Hero } from "../components/index";
 
-export default function Home() {
-  return <h2 className="font-bold text-2xl">working fine</h2>;
-}
+const page = () => {
+  return (
+    <main className="overflow-hidden">
+      <Hero />
+    </main>
+  );
+};
+
+export default page;
